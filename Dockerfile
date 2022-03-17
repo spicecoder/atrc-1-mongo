@@ -17,4 +17,4 @@ COPY app.js .
 COPY startmongo.sh . 
 RUN chmod +x startmongo.sh 
 RUN echo $PATH
-CMD ["/bin/sh","startmongo.sh",";node", "app.js"]
+CMD ["/bin/sh","startmongo.sh"]
