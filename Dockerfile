@@ -10,7 +10,7 @@ RUN mkdir db
 WORKDIR /temp
 RUN pwd 
 RUN ls
-EXPOSE 27017 27017
+EXPOSE 27017 
 RUN  apk add nodejs
 RUN  apk add npm
 RUN mongo -version
