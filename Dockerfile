@@ -8,8 +8,6 @@ RUN mkdir data
 RUN cd data
 RUN mkdir db
 WORKDIR /temp
-RUN pwd 
-RUN ls
 EXPOSE 27017 
 RUN  apk add nodejs
 RUN  apk add npm
